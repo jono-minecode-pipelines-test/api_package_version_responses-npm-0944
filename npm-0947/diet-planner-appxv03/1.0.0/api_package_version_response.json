@@ -1,0 +1,46 @@
+{
+    "name": "diet-planner-appxv03",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "validatetc": "^1.1.0"
+    },
+    "_id": "diet-planner-appxv03@1.0.0",
+    "_nodeVersion": "20.11.1",
+    "_npmVersion": "10.2.4",
+    "dist": {
+        "integrity": "sha512-nTUv+sRiDzRVJFOwHXz4/tdX0v5RtL4Lq473DhPZIiw9L6YakKkaWTTI43q5osF/1ggBj8RYMR49jgMJINSKRw==",
+        "shasum": "ea902e1b5ac5379335246d66fc4c6fbb4a7c9e9d",
+        "tarball": "https://registry.npmjs.org/diet-planner-appxv03/-/diet-planner-appxv03-1.0.0.tgz",
+        "fileCount": 1,
+        "unpackedSize": 286,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQDKJ/cE7hFCN1AQZjjawaL8tTQAFOJX33RI56c/qf4y6gIgWsu4KS/kxESONW1Fdu59ZAOQgeQaGswLfe6YwIc258I="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "burakcevik101",
+        "email": "burak.cevik@furkancelik.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "burakcevik101",
+            "email": "burak.cevik@furkancelik.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/diet-planner-appxv03_1.0.0_1721912241951_0.17015215331227007"
+    },
+    "_hasShrinkwrap": false
+}

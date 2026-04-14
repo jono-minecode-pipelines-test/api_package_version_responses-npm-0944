@@ -1,0 +1,78 @@
+{
+    "name": "ls-color",
+    "version": "1.0.5",
+    "description": "More colorful alternative to the ls command.",
+    "main": "ls-color.coffee",
+    "author": {
+        "name": "Andrew Carlson",
+        "email": "acarl005@g.ucla.edu"
+    },
+    "license": "MIT",
+    "bin": {
+        "ls-color": "./bin/ls-color"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/acarl005/color-ls.git"
+    },
+    "scripts": {
+        "prepublish": "npm run build",
+        "build": "coffee -o dest/ -c src/*.coffee",
+        "test": "npm run build && bin/ls-color -laiIk"
+    },
+    "preferGlobal": true,
+    "keywords": [
+        "ls",
+        "cli",
+        "list",
+        "files",
+        "commandline",
+        "pretty",
+        "ansi",
+        "color",
+        "colors"
+    ],
+    "dependencies": {
+        "ansi-256-colors": "^1.1.0",
+        "lodash": "^4.1.0",
+        "sprintf-js": "^1.0.3",
+        "underscore.string": "^3.2.3",
+        "userid": "^0.2.0",
+        "karg": ">=0.3.1"
+    },
+    "gitHead": "437ddb49e3415ffe204b374414f83ad31e6c0774",
+    "bugs": {
+        "url": "https://github.com/acarl005/color-ls/issues"
+    },
+    "homepage": "https://github.com/acarl005/color-ls#readme",
+    "_id": "ls-color@1.0.5",
+    "_shasum": "b8944374da28ff778950c24fcc27b572245c14b8",
+    "_from": ".",
+    "_npmVersion": "3.9.5",
+    "_nodeVersion": "6.2.2",
+    "_npmUser": {
+        "name": "acarl005",
+        "email": "acarl005@g.ucla.edu"
+    },
+    "dist": {
+        "shasum": "b8944374da28ff778950c24fcc27b572245c14b8",
+        "tarball": "https://registry.npmjs.org/ls-color/-/ls-color-1.0.5.tgz",
+        "integrity": "sha512-81yYMQFavQKZn7clOJLoMnnsYlFg24MaIInYYl8f0OdSn+X/ddlnZeHWUkYhucDaj+/7gcLG6OOyU95fqrt+qA==",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIDcT2LnzBDVd7+9gVQ8HLp4whfNw4iDYUZ62UYRddhoTAiA79dqMELdpQTb63UeU81fo2kRdh76MsdUQZw044+LXgg=="
+            }
+        ]
+    },
+    "maintainers": [
+        {
+            "name": "acarl005",
+            "email": "acarl005@g.ucla.edu"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "packages-16-east.internal.npmjs.com",
+        "tmp": "tmp/ls-color-1.0.5.tgz_1473376942857_0.7408180683851242"
+    }
+}

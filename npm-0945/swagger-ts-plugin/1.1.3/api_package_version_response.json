@@ -1,0 +1,57 @@
+{
+    "name": "swagger-ts-plugin",
+    "version": "1.1.3",
+    "description": "\u83b7\u53d6swagger\u4fe1\u606f\u8f6cts\u63a5\u53e3",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "tsc || true",
+        "test": "cross-env ts-node ./src/index.ts"
+    },
+    "author": {
+        "name": "1543259203@qq.com"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^14.14.22",
+        "cross-env": "^7.0.3",
+        "fast-xml-parser": "^3.17.6",
+        "ts-loader": "^8.0.14",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.1.3"
+    },
+    "gitHead": "3eda70b812ea33cd771c1e10c5ac765392bd6a69",
+    "_id": "swagger-ts-plugin@1.1.3",
+    "_nodeVersion": "14.8.0",
+    "_npmVersion": "6.14.7",
+    "dist": {
+        "integrity": "sha512-loPaTCFJG45fuBgl3+uCnRo9OYMYVPa1X6jyUA/ExiuVYBVW0yMXnTCse58H4grB5kSEenGWqd5g1Nr39XiBRQ==",
+        "shasum": "21de71fc13da07441eaa09eda99bb852088bafc6",
+        "tarball": "https://registry.npmjs.org/swagger-ts-plugin/-/swagger-ts-plugin-1.1.3.tgz",
+        "fileCount": 15,
+        "unpackedSize": 34057,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgDGeXCRA9TVsSAnZWagAAPeoQAJP0LaKQmv6Kz1qPOCh3\njCzBpqjh7GXn3kNv6V5OYaxVlmckjpsqH0/6mMK42ks57LrCWZojf2ciHdNH\nXPvDeZpPjqPnjYQ5K+nFe6lD+30S78P8XvIyqzJUu0ZPs+4XqDPwfj7jbfzO\nFjluQfA+KtIy/V/9kRfovQ1ee1O0CZy6sAx6XbfsPSXDDQ06pfZO1CkU1vnA\no4STHDjozyE1dsWhfpVKz1x8iCrvENGihoFOwhM74AwIGEidx6PNYqMMOwlQ\nl7na7P3M+g2ncAqMl4XnS2ivWUX+QoL2u2VLP/u1jrfyoKT5sOIf6POsRrpa\neNyDsTdc8uZS/H9iztDn4l/1wxhMlEeGRJ7ZGyYpqJ1MHMgToa8yL5CpLlmS\nHgUXBk+kivQYmiWG2GVoGfeRAfOLp96Td8NZ00u0/Zeg4IUHN9aXHHTwo1n2\nVJf5QPONuh5oBGLmbmx0zH1SZRbJKlBeKEYRX43KTaBHVjYAQE9swnk+rudY\nPr7IQrN58AnVvG5aC3MODJairDtMVk1LZ+FvZlOu32lXZctqNoDZlb4Zrje6\ngw5O2rmKZg2wlbW+l+ypdpmXopOOjzDDgUvH8BUImwnSxCEtIiEOuhImgqjR\n8W0it737Cx0ARTe8grwdgrn2C1VHXC5Scnhzkelm6OXkyaPlMC8053yfp8cK\nMep0\r\n=a/ys\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCICwFfVJY2cUQxZhlsjmrW1BXZ86XfIfVbKV8A7OPQisoAiEAnD3CePBPCBGoju6k7CCXMfhWwL3K1GRmc+0u9A52HDQ="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "gaofeng.ye",
+        "email": "1543259203@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "gaofeng.ye",
+            "email": "1543259203@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/swagger-ts-plugin_1.1.3_1611425687439_0.3691518415451669"
+    },
+    "_hasShrinkwrap": false
+}

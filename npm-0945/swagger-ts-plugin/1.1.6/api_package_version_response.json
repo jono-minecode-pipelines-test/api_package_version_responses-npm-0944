@@ -1,0 +1,56 @@
+{
+    "name": "swagger-ts-plugin",
+    "version": "1.1.6",
+    "description": "\u83b7\u53d6swagger\u4fe1\u606f\u8f6cts\u63a5\u53e3",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "tsc || true",
+        "test": "cross-env ts-node ./src/index.ts"
+    },
+    "author": {
+        "name": "gaofeng.ye",
+        "email": "1543259203@qq.com",
+        "url": "https://github.com/AugustEnd/swagger-ts-plugin"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^14.14.22",
+        "cross-env": "^7.0.3",
+        "fast-xml-parser": "^3.17.6",
+        "ts-loader": "^8.0.14",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.1.3"
+    },
+    "_id": "swagger-ts-plugin@1.1.6",
+    "dist": {
+        "shasum": "6e509da37c212f9cd36e4230ab43858814a50737",
+        "integrity": "sha512-Mjm+UsvaeAgHdt+Oi4Z4zney2d0LiL4wf0ATFi9rC0TYvxaKFRCvDNTS4/fiBweMbExXdtoh4jKrfiEgW4294Q==",
+        "tarball": "https://registry.npmjs.org/swagger-ts-plugin/-/swagger-ts-plugin-1.1.6.tgz",
+        "fileCount": 20,
+        "unpackedSize": 36085,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgDRVbCRA9TVsSAnZWagAAngYP/jeq2ZSMU+pugL6/7Uqw\nxiWC+E5nfoFLbuysXrpdiNClkJ9PpInTBSCfIonHfjnWENAI+4XKQ+OQUHp1\nQivL4kZRqyi2X+eYjzFhMfQZe66bAtbhVt1JmtCdWEPHI0KjUo7Syukwngui\n2IT+xkBxmQue/FFdh+q8QPVNT8KoKxQ8MlB9k1DZtl0ehdTx32816fXGjzlv\n2n05uy8r2rqjRIJKMDPo1qbblZ7xLIbIQD+uRX3vL/zyk5Zrg7N6/wGPyfae\nAh2tBqaIGFelo0I+8+q7+VPwhChMJgtwQulTtiHsJTiAvoX5WsHg9S/wi11V\nj3hb6Xp2FGqoLwbPnXEYJhKo4cjHG0e855VhYblhWpyBHzU/EqOs7yducvJn\n6SSUjbCxKQdgRnsRHmwckSPaJhJrwVimpVrUQDbaQBrJ6OlNhQlnzEHpDUhH\nYKlFyY3gpt3dBBX76W9vlLgW5RzHP7pMkhCy3vhAknJq6Ch2c++F8YeKnJPN\nak6Jg4wxIEUYaCzpcVSWYavHwQPjdhm44L9r3oTBt2KBdzVmxIpYqXWoyfu/\nTjvvJcHOly7Xj6GcY22yjqGMjDgAKhqeM5K6yPLHh56jlboowJ4fqrWZAD2C\nwZFnuDkQ4qQQ9vDAGIeFCb7o+mROkty7i/hvsLAK/hIGoXn4Y3n7sbphq0dn\nKbnK\r\n=QZQH\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIBneK6MS2r76dwl5vGl9S2j9k0V5kvIuv5fVdIgFof3fAiEAt+ZnVlkQSOPZ5065sZmnO+mKz4yGY8cfAK+quWlAYc0="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "gaofeng.ye",
+        "email": "1543259203@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "gaofeng.ye",
+            "email": "1543259203@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/swagger-ts-plugin_1.1.6_1611470171373_0.047607112669457274"
+    },
+    "_hasShrinkwrap": false
+}

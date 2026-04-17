@@ -1,0 +1,64 @@
+{
+    "name": "swagger-ts-plugin",
+    "version": "1.1.10",
+    "description": "\u83b7\u53d6swagger\u4fe1\u606f\u8f6cts\u63a5\u53e3",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "keywords": [
+        "swagger",
+        "typescript",
+        "xml"
+    ],
+    "scripts": {
+        "build": "tsc || true",
+        "test": "cross-env ts-node ./src/execute/index.ts"
+    },
+    "author": {
+        "name": "gaofeng.ye",
+        "email": "1543259203@qq.com",
+        "url": "https://github.com/AugustEnd/swagger-ts-plugin"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^14.14.22",
+        "cross-env": "^7.0.3",
+        "fast-xml-parser": "^3.17.6",
+        "ts-loader": "^8.0.14",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.1.3"
+    },
+    "gitHead": "ab200285c3c5ed93dec8742199284a37b04e0ff9",
+    "_id": "swagger-ts-plugin@1.1.10",
+    "_nodeVersion": "10.16.0",
+    "_npmVersion": "6.9.0",
+    "dist": {
+        "integrity": "sha512-LPLiC3EhE4goE39oo+JBL/njlF9f0YVwliCMd6j3z8QwKvQW/lwN6LRzMyNRyLm6cvBJbdFaol3eQTOiZ4Zmdw==",
+        "shasum": "33aab3467c0fc1b710470b718918a8593f884dcc",
+        "tarball": "https://registry.npmjs.org/swagger-ts-plugin/-/swagger-ts-plugin-1.1.10.tgz",
+        "fileCount": 27,
+        "unpackedSize": 51660,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgEmJDCRA9TVsSAnZWagAAQL8QAIGQ3WvMTnS0xpzT8jYY\ntCs0Gn4+Uo7nQSlLS8wa9LagbSHAd1sIYg6qNhaFbCD7Usv98CX8dsoRLulV\noguS2e8WSbWbMi5xOHfY0eoh1nP9lm1euQLFmDiCywZc2VDy+p3FK3tO27Es\nRjgy+cgIT9j4ftysr7sx3EvzOHfSUnHJXi+o6lQgXNeTafNkrvj1ylg3Krqy\nC+2U4vtDtTtQJ3gy/eP2+BfDXBYfKWgMHELye3lIjBSPABPJNUolm821DAjI\nxtW9YWxjfiNnBpyIQHK/iLSowj/Ok84sqjkqck1XmD2lVTlAnK9EHgNVJDcF\ngdAEyFFZyEpA1WL9w2grXGPlaxMcV6EQCw8cnMMZTG5Ks4npxfjOBdWz3/g1\ndQg4NbIpso+Y7739z4Jd/W+gl/UWff3YQTYbGQr3km1kpUreL/DXR9Pvih5G\nV5QPzD4jdi9DGjkOC3jWqPUcPROq9Nbo3Aria1XFcOWjM6FAkEBD3yALA/ie\ndNfjDU6t/fyv2tatF0VWqI7PgmePtLgKNmUlwMGqGlXTNgVxKqhr7DQLbeG2\n9eurJce7jGRSROTRlUnMuj/d9/+2UeVs1YUWJKwGM8Imz9a+EeWEWHch4upL\nrBp5Ehes3GAZXS7VO2JKEZOptQVoqnDRxLWoJf+X+Tpa9v3KLy0qyhP4BVms\nr6Wr\r\n=rNJM\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIHmH1w19AWk++5jvepTbY7RQAwja8zWclIObG/Rtp0TaAiEAlG/jecCXiUM1nrdaRTpOxMGfsygrdrnM+6EyJI+U7mE="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "gaofeng.ye",
+        "email": "1543259203@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "gaofeng.ye",
+            "email": "1543259203@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/swagger-ts-plugin_1.1.10_1611817538871_0.7284688997329627"
+    },
+    "_hasShrinkwrap": false
+}
